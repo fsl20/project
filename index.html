@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <title>vue</title>
+    <!-- <link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css"> -->
+    <link rel="stylesheet" type="text/css" href="./src/css/iview.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/com.css">
+    <style>
+    	body,html{
+    		padding: 0;
+    		margin : 0;
+            height: 100%;
+    	}
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <transition :name="transitionName">
+        <router-view></router-view>
+    </transition>
+</div>
+
+<!-- <script src="js/build-chunk.js"></script> -->
+<script src="/dist/build.js"></script>
+
+
+</body>
+</html>
