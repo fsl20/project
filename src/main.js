@@ -7,9 +7,6 @@ import App          from './App.vue'
 import Index        from './components/index.vue'
 import Router       from './router/router.js'
 
-// import './css/com.css'  ;
-// import './css/style.css';
-
 Vue.config.debug = true
 
 // Vue.use(VueResource)
